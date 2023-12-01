@@ -36,6 +36,10 @@ Este é um aplicativo simples para encontrar informações sobre o clima em qual
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
+## Observação Importante
+
+Para a melhor funcionalidade do projeto, é preciso criar uma conta e pegar a APIKEY no site da [OpenWeatherMap](https://openweathermap.org/) para modificar no script.js existente no projeto.
+
 ---
 
 Esperamos que este aplicativo simples facilite a obtenção das informações meteorológicas que você precisa. Se você tiver sugestões ou encontrar problemas, sinta-se à vontade para contribuir ou abrir uma issue. Apreciamos o seu interesse!
