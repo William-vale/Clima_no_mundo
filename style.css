@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("https://images.unsplash.com/photo-1478827387698-1527781a4887?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwMTI4NjEwNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.bloco-tempo {
+    max-width: 450px;
+    width: 95%;
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: 0.8;
+    color: aliceblue;
+}
+
+.bloco-tempo .input-cidade {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: aliceblue;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn-img {
+    width: 20px;
+}
+
+.bloco-central {
+    margin-top: 30px;
+
+}
+
+.bloco-central .cidade {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;    
+}
+
+.bloco-final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.bloco-final div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.bloco-final div img {
+    width: 30px;
+}
+
+.text-previsao {
+    color: white;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
