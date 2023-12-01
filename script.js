@@ -1,4 +1,4 @@
-const apiKey = "3c00df021b0a5b95475719b4d5355c12"
+const apiKey = "SUA KEY"
 
 
 function colocarDadosNaTela(dados) {
